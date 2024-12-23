@@ -19,8 +19,8 @@ app.use(categoryRoutes);
 app.use(itemRoutes);
 
 // Sync database and start server
-sequelize.sync().then(() => {
-    app.listen(process.env.PORT, () => {
-        console.log(`Server running on port ${process.env.PORT}`);
-    });
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });

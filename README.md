@@ -20,3 +20,11 @@ This is an intuitive inventory management application built with **Node.js**, **
 - **Database**: PostgreSQL, Sequelize ORM
 - **Frontend**: EJS templates, Bootstrap
 - **CSS Styling**: Custom CSS with Bootstrap
+
+---
+
+## Live Demo
+
+✨ Experience the app in action! Click below to explore the live application:
+
+[![Inventory Management App](https://img.shields.io/badge/Visit-Live%20Demo-blue?style=for-the-badge&logo=web&logoColor=white)](https://inventory-app-production-7fcf.up.railway.app/)
